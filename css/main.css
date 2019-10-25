@@ -4,7 +4,59 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-size: 18px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#deg-blue {
+  background: rgb(28,83,128);
+  background: linear-gradient(0deg, rgba(28,83,128,1) 0%, rgba(6,54,95,1) 52%);
+  height: 400px;
+  
+}
+.container {
+  display: flex;
+  justify-content: center; 
+  border: 1px solid springgreen;
+  height: 300px;
+}
+
+aside {
+  border: 1px blue solid;
+  position: absolute;
+  top: 10%;
+  right: 58%;
+  height: 500px;
+  padding-right: 15px;
+}
+aside img {
+  padding: 0% 1%;
+}
+
+section {
+  color: red;
+  border: 1px black solid;
+  padding-left:15px;
+  width: 35%;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  height: 500px;
+}
+#text-container {
+  background: white;
+}
+footer {
+  border: 1px solid yellow;
+
 }
